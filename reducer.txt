@@ -24,7 +24,7 @@ else
 	if current_word:
 		#write results
 		print '%s\t%s' % (current_word, current_count)
-	current_count<0count
+	current_count=count
 	current_word=word
 #End of For Loop
 if current_word == word:
