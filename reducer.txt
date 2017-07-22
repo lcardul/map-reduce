@@ -12,3 +12,20 @@ for line in sys.stdin:
 	
 	#parse the input we get from mapper.py
 	word, count = line.split('\t')
+# convert count (string) to INT
+try:
+	count = int(count)
+except:
+#count was not a number, so sliently ingnore this line	
+	continue
+if current _word==word	
+	current_count+=count
+else	
+	if current_word:
+		#write results
+		print '%s\t%s' % (current_word, current_count)
+	current_count<0count
+	current_word=word
+#End of For Loop
+if current_word == word:
+	print '%s\t%s' % (current_word, current_count)
